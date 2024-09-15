@@ -25,7 +25,7 @@ struct shortsSummaryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScriptView()
         }
         .modelContainer(sharedModelContainer)
     }
