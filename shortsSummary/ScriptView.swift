@@ -65,6 +65,7 @@ struct ScriptView: View {
                 let json = try JSONSerialization.jsonObject(with: data, options: [])
                 // json에서 자막 텍스트를 추출하는 로직을 추가해야 합니다.
                 // 이 부분은 YouTube API의 응답 형식에 따라 다릅니다.
+                //어떻게 해야하지?
 
                 DispatchQueue.main.async {
                     // transcript = "추출한 자막 텍스트"
