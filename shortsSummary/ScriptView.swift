@@ -48,7 +48,7 @@ struct ScriptView: View {
             return
         }
         
-        let apiKey = "AIzaSyAChf4iWwerK3xLtFJW9gzci6r-NTgLK2M" // 여기에 API 키를 입력
+        let apiKey = personalAPIKey // 여기에 API 키를 입력
         let apiURL = "https://www.googleapis.com/youtube/v3/captions?videoId=\(videoID)&key=\(apiKey)"
         
         guard let url = URL(string: apiURL) else { return }
