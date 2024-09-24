@@ -14,7 +14,6 @@
 		894678A82C8F46D900929196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894678A72C8F46D900929196 /* Preview Assets.xcassets */; };
 		894678B42C933FA800929196 /* ScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894678B32C933FA800929196 /* ScriptView.swift */; };
 		897D56A32CA1A88E0049E193 /* CaptionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D56A22CA1A88E0049E193 /* CaptionParser.swift */; };
-		897D56A52CA305C30049E193 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D56A42CA305C30049E193 /* ApiKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		894678A72C8F46D900929196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		894678B32C933FA800929196 /* ScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptView.swift; sourceTree = "<group>"; };
 		897D56A22CA1A88E0049E193 /* CaptionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionParser.swift; sourceTree = "<group>"; };
-		897D56A42CA305C30049E193 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 				894678B32C933FA800929196 /* ScriptView.swift */,
 				894678A62C8F46D900929196 /* Preview Content */,
 				897D56A22CA1A88E0049E193 /* CaptionParser.swift */,
-				897D56A42CA305C30049E193 /* ApiKey.swift */,
 			);
 			path = shortsSummary;
 			sourceTree = "<group>";
@@ -157,7 +154,6 @@
 				894678A32C8F46D700929196 /* Item.swift in Sources */,
 				897D56A32CA1A88E0049E193 /* CaptionParser.swift in Sources */,
 				8946789F2C8F46D700929196 /* shortsSummaryApp.swift in Sources */,
-				897D56A52CA305C30049E193 /* ApiKey.swift in Sources */,
 				894678B42C933FA800929196 /* ScriptView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
