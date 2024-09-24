@@ -48,7 +48,7 @@ struct ScriptView: View {
             return
         }
         
-//        let apiKey = personalAPIKey // 여기에 API 키를 입력.. 숨기기!
+        let apiKey = personalAPIKey // 여기에 API 키를 입력.. 숨기기!
         let apiURL = "https://www.googleapis.com/youtube/v3/captions?videoId=\(videoID)&key=\(apiKey)"
         
         guard let url = URL(string: apiURL) else { return }
