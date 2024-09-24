@@ -5,7 +5,7 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
+ApiKey.swift
 ## User settings
 xcuserdata/
 
@@ -84,5 +84,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-ApiKey.swift
+
 # End of https://www.toptal.com/developers/gitignore/api/swift
